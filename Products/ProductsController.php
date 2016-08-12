@@ -21,7 +21,6 @@ class ProductsController
         if (isset($server['REQUEST_METHOD'])) {
             $this->method = $server['REQUEST_METHOD'];
         }
-       // var_dump($server);
     }
 
     private function responseJSON($data)
